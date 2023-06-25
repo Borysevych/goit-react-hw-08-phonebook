@@ -36,13 +36,13 @@ export function RegisterForm({ onData }) {
           alignItems: 'center',
           backgroundColor: 'white',
           padding: '20px',
-          boxShadow: ' rgb(33 33 33) 0px 2px 10px 1px',
+          boxShadow: ' rgb(188 186 195) 0px 2px 10px 1px',
         }}
       >
         <Typography
           variant="h4"
         >
-          Sign Up
+        
         </Typography>
         <Box component="form" onSubmit={handleSubmit} sx={{ mt: 1 }}>
           <TextField
@@ -61,7 +61,7 @@ export function RegisterForm({ onData }) {
             margin="normal"
             required
             fullWidth
-            label="Email Address"
+            label="E-mail"
             name="email"
             autoComplete="email"
             type="email"
@@ -82,7 +82,7 @@ export function RegisterForm({ onData }) {
             onChange={handleChange}
           />
 
-          <Button type="submit" variant="outlined" size="small">
+          <Button type="submit" variant="contained" size="small">
             Sign Up
           </Button>
         </Box>

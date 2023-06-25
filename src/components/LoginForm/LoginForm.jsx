@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import { TextField, Box, Container, Typography } from '@mui/material';
+import { TextField, Box, Container } from '@mui/material';
 
 import { useState } from 'react';
 
@@ -37,17 +37,16 @@ export function LoginForm({ onData }) {
           alignItems: 'center',
           backgroundColor: 'white',
           padding: '20px',
-          boxShadow: ' rgb(33 33 33) 0px 2px 10px 1px',
+          boxShadow: ' rgb(188 186 195) 0px 2px 10px 1px',
         }}
       >
-        <Typography variant="h4">Log In</Typography>
         <Box component="form" onSubmit={handleSubmit} sx={{ mt: 1 }}>
           <TextField
             margin="normal"
             required
             fullWidth
             autoFocus
-            label="Email Address"
+            label="E-mail"
             name="email"
             autoComplete="email"
             type="email"
