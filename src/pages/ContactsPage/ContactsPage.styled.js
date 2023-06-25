@@ -5,12 +5,12 @@ export const Container = styled.div`
 `;
 export const TextStyled = styled.h3`
   margin-top: 50px;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
 `;
 
 export const WrapperContacts = styled.div`
   padding: 15px;
-  box-shadow: rgb(33 33 33) 0px 2px 10px 1px;
+  box-shadow: rgb(188 186 195) 0px 2px 10px 1px;
   margin-bottom: 30px;
 `;

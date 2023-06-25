@@ -33,7 +33,7 @@ const ContactsPage = () => {
           </>
         ) : (
           <TextStyled>
-            Phonebook is empty! <br /> Add your contacts.
+            Phone book is empty! <br /> Add your contacts.
           </TextStyled>
         )}
         <Toaster position="top-center" reverseOrder={false} />
